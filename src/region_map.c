@@ -640,7 +640,7 @@ static const union AnimCmd *const sAnims_SwitchMapCursor[] = {
 static const struct DungeonMapInfo sDungeonInfo[] = {
     {
         .id = MAPSEC_VIRIDIAN_FOREST,
-        .name = sMapsecName_VIRIDIAN_FOREST,
+        .name = sMapsecName_WHISPERWOOD,
         .desc = gText_RegionMap_AreaDesc_ViridianForest
     }, {
         .id = MAPSEC_MT_MOON,
