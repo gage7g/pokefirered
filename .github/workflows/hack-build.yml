@@ -6,7 +6,7 @@ name: Hack build check
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master, new-region ]
   workflow_dispatch:
 
 permissions:
