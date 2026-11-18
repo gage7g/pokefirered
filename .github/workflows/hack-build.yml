@@ -1,0 +1,46 @@
+name: Hack build check
+
+# Compiles the FireRed build WITHOUT the byte-for-byte comparison that the
+# upstream CI does (a hack can never match the original ROM). It publishes
+# nothing: no ROM and no patch are uploaded. Green means the project compiles.
+
+on:
+  push:
+    branches: [ master ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      GAME_VERSION: FIRERED
+      GAME_LANGUAGE: ENGLISH
+      GAME_REVISION: 0
+      MODERN: 0
+      COMPARE: 0
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Checkout agbcc
+        uses: actions/checkout@v4
+        with:
+          path: agbcc
+          repository: pret/agbcc
+
+      - name: Install packages
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y binutils-arm-none-eabi libpng-dev
+
+      - name: Install agbcc
+        run: |
+          ./build.sh
+          ./install.sh ../
+        working-directory: ./agbcc
+
+      - name: Build FireRed
+        run: make -j"$(nproc)"
