@@ -11,9 +11,9 @@ PalletTown_Text_OakGrassUnsafeNeedMon::
     .string "Here, come with me!$"
 
 PalletTown_Text_RaisingMonsToo::
-    .string "I'm raising POKéMON, too.\p"
-    .string "When they get strong, they can\n"
-    .string "protect me.$"
+    .string "I watch the tide for a living.\p"
+    .string "Strange POKéMON wash up after a\n"
+    .string "storm. Keep your eyes open!$"
 
 PalletTown_Text_CanStoreItemsAndMonsInPC::
     .string "Technology is incredible!\p"
@@ -30,8 +30,8 @@ PalletTown_Text_RivalsHouse::
     .string "{RIVAL}'s house$"
 
 PalletTown_Text_TownSign::
-    .string "PALLET TOWN\n"
-    .string "Shades of your journey await!$"
+    .string "DRIFTWOOD COVE\n"
+    .string "Where every journey washes ashore.$"
 
 PalletTown_Text_OakLetMeSeePokedex::
     .string "OAK: Ah, {PLAYER}!\n"

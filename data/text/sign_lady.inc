@@ -1,4 +1,4 @@
-@ For the NPC in Pallet Town that talks about the Trainer Tips sign
+@ For the NPC in Driftwood Cove that talks about the Trainer Tips sign
 
 PalletTown_Text_HmmIsThatRight::
 	.string "Hmm…\n"

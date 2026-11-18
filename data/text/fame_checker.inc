@@ -62,7 +62,7 @@ gFameCheckerFlavorText_Daisy3:: @ 0x81AD5A7
 
 gFameCheckerFlavorText_Daisy4:: @ 0x81AD608
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\p"
-	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}A girl from PALLET TOWN, DAISY,\n"
+	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}A girl from DRIFTWOOD COVE, DAISY,\n"
 	.string "she enjoys TEA every day.\p"
 	.string "She visits the CELADON DEPT. STORE\n"
 	.string "to buy some TEA.$"
@@ -71,11 +71,11 @@ gFameCheckerFlavorText_Daisy5:: @ 0x81AD69F
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\p"
 	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}The Spring POKéMON CONTEST's\n"
 	.string "Grand Champion is DAISY OAK of\l"
-	.string "PALLET TOWN!$"
+	.string "DRIFTWOOD COVE!$"
 
 gFameCheckerFlavorText_Brock0:: @ 0x81AD705
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\p"
-	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}PEWTER CITY POKéMON GYM\n"
+	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}SLATE HOLLOW POKéMON GYM\n"
 	.string "LEADER: BROCK\l"
 	.string "The Rock-Solid POKéMON TRAINER!$"
 
@@ -798,7 +798,7 @@ gFameCheckerPersonQuote_Giovanni:: @ 0x81B0BB5
 	.string "bettering myself, and none other.$"
 
 gFameCheckerFlavorTextOriginLocation_ProfOak0:: @ 0x81B0C45
-	.string "PALLET TOWN$"
+	.string "DRIFTWOOD COVE$"
 
 gFameCheckerFlavorTextOriginLocation_ProfOak1::
 	.string "RESEARCH LAB$"
@@ -807,7 +807,7 @@ gFameCheckerFlavorTextOriginLocation_ProfOak2::
 	.string "RESEARCH LAB$"
 
 gFameCheckerFlavorTextOriginLocation_ProfOak3::
-	.string "VIRIDIAN CITY$"
+	.string "LANTERNPORT$"
 
 gFameCheckerFlavorTextOriginLocation_ProfOak4::
 	.string "POKéMON LEAGUE$"
@@ -825,7 +825,7 @@ gFameCheckerFlavorTextOriginLocation_Daisy2::
 	.string "WATER LABYRINTH$"
 
 gFameCheckerFlavorTextOriginLocation_Daisy3::
-	.string "VIRIDIAN CITY$"
+	.string "LANTERNPORT$"
 
 gFameCheckerFlavorTextOriginLocation_Daisy4::
 	.string "CELADON MANSION$"
@@ -834,13 +834,13 @@ gFameCheckerFlavorTextOriginLocation_Daisy5::
 	.string "FOUR ISLAND$"
 
 gFameCheckerFlavorTextOriginLocation_Brock0::
-	.string "PEWTER CITY$"
+	.string "SLATE HOLLOW$"
 
 gFameCheckerFlavorTextOriginLocation_Brock1::
 	.string "PEWTER GYM$"
 
 gFameCheckerFlavorTextOriginLocation_Brock2::
-	.string "PEWTER CITY$"
+	.string "SLATE HOLLOW$"
 
 gFameCheckerFlavorTextOriginLocation_Brock3::
 	.string "ROUTE 4$"
@@ -1475,7 +1475,7 @@ PokemonJournal_Text_SpecialFeatureDaisyOak::
 	.string "CONTEST Special!\p"
 	.string "The Spring POKéMON CONTEST's\n"
 	.string "Grand Champion is DAISY OAK of\l"
-	.string "PALLET TOWN!$"
+	.string "DRIFTWOOD COVE!$"
 
 PokemonJournal_Text_SpecialFeatureMrFuji::
 	.string "POKéMON JOURNAL\p"
