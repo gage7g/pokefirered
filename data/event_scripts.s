@@ -280,6 +280,7 @@ gStdScriptsEnd::
 	.include "data/maps/PewterCity/scripts.inc"
 	.include "data/maps/CeruleanCity/scripts.inc"
 	.include "data/maps/LavenderTown/scripts.inc"
+	.include "data/maps/TestIsland/scripts.inc"
 	.include "data/maps/VermilionCity/scripts.inc"
 	.include "data/maps/CeladonCity/scripts.inc"
 	.include "data/maps/FuchsiaCity/scripts.inc"
